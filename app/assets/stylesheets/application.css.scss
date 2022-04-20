@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 
 .navbar-brand {
   font-family: 'Anek Tamil', sans-serif;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .navbar-default .navbar-brand,
@@ -52,6 +52,18 @@ h1, h2, h3, h4 {
     opacity:0.75;
   }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #6C5B7B;
+  }
+}
+
 
 //Home Page Styles
 .home-callout {
